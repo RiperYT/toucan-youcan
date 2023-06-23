@@ -1,7 +1,7 @@
 const OrganizationItem = ({ organization, isCurrent, onClick }) => {
   return (
     <div
-      className={`mx-2 my-4 p-4 rounded-xl bg-background-primary text-primary text-center border-2 border-primary ${
+      className={`mx-2 my-4 p-4 rounded-xl bg-background-primary text-primary text-center border-2 border-primary transition-all ${
         isCurrent ? "bg-primary text-background-primary text-white" : "hover:cursor-pointer hover:bg-accent hover:text-white"
       }`}
       onClick={() => {

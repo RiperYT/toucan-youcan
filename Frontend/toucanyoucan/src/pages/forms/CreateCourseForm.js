@@ -104,7 +104,7 @@ const CreateCourseForm = () => {
                 }}
                 primary
                 rounded
-                className="w-96 h-12 mt-5 text-lg hover:bg-accent"
+                className="w-96 h-12 mt-5 text-lg transition-all hover:bg-accent"
               >
                 Done
               </Button>

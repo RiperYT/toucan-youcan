@@ -21,7 +21,7 @@ const MainPage = () => {
   return (
     <div className="bg-background-primary">
       <GoPerson
-        className="flex fixed top-0 z-50 m-1 p-1 w-8 h-8 hover:cursor-pointer hover:bg-accent rounded-full"
+        className="flex fixed top-0 z-50 m-1 p-1 w-8 h-8 transition-all hover:cursor-pointer hover:bg-accent rounded-full"
         onClick={() => {
           navigate("/profile");
         }}
@@ -34,7 +34,7 @@ const MainPage = () => {
           ${isExpanded ? "border border-2 rounded-lg border-primary" : ""} }`}>
             {isExpanded && <CategoriesSidebar />}
             <GoThreeBars
-              className="m-1 p-1 w-10 h-10 hover:cursor-pointer hover:bg-accent rounded-full"
+              className="m-1 p-1 w-10 h-10 transition-all hover:cursor-pointer hover:bg-accent rounded-full"
               size={30}
               onClick={() => {
                 setIsExpanded(!isExpanded);
