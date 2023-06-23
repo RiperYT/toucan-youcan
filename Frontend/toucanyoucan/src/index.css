@@ -10,4 +10,5 @@ body {
 * {
   font-family: "Montserrat";
   background-color: #f3fffd;
+  z-index: 10
 }

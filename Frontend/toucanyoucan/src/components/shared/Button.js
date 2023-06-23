@@ -19,9 +19,9 @@ function Button({
   const classes = classNames(
     "border-2",
     {
-      "border-primary bg-primary text-white":
+      "border-primary-green bg-primary-green text-white":
         primary && !outline && !text && !disabled,
-      "border-primary bg-background-primary text-primary":
+      "border-primary-green primary-green text-primary-green":
         primary && outline && !disabled,
       "border-gray-900 bg-gray-800": secondary,
       "border-green-600 bg-green-500": success,

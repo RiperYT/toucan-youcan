@@ -71,7 +71,7 @@ const LoginForm = () => {
       />
       <form
         onSubmit={handleFormSubmit}
-        className="border-4 border-primary rounded-2xl p-4 shadow-2xl space-y-10"
+        className="border-4 border-primary-green rounded-2xl p-4 shadow-2xl space-y-10"
         style={{
           width: "458px",
           height: "515px",
