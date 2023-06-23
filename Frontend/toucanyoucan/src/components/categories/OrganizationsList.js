@@ -42,7 +42,7 @@ const OrganizationsList = () => {
         onClick={() => {
           navigate("/createcourse");
         }}
-        className="h-8 w-full self-end"
+        className="h-8 w-full self-end bg-accent hover:cursor-pointer hover:bg-primary rounded-xl border-primary hover:bg-accent hover:text-white"
         color="primary-green"
       />
     </div>
