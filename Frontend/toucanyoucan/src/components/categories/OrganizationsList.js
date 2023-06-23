@@ -43,7 +43,7 @@ const OrganizationsList = () => {
           navigate("/createcourse");
         }}
         className="h-8 w-full self-end"
-        color="primary"
+        color="primary-green"
       />
     </div>
   );

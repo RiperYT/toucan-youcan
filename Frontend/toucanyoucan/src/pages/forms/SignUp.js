@@ -68,7 +68,6 @@ const SignUp = () => {
       <img
         alt=""
         src="tucan.png"
-        className="z-0"
         style={{
           position: "absolute",
           top: "0",
@@ -79,7 +78,7 @@ const SignUp = () => {
       />
       <form
         onSubmit={handleFormSubmit}
-        className="border-4 border-primary-green rounded-2xl p-4 shadow-2xl space-y-5"
+        className="border-4 border-primary rounded-2xl p-4 shadow-2xl space-y-5"
         style={{
           width: "458px",
           boxShadow: "0px 0px 66px 6px rgba(0, 0, 0, 0.25)",

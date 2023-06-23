@@ -32,7 +32,7 @@ const CreateCourseForm = () => {
       />
       <form
         onSubmit={() => {}}
-        className="border-4 border-primary-green rounded-xl p-4 shadow-2xl space-y-10"
+        className="border-4 border-primary rounded-xl p-4 shadow-2xl space-y-10"
         style={{
           width: "849px",
           height: "600px",
