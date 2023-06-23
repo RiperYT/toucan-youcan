@@ -120,14 +120,14 @@ const LoginForm = () => {
             </div>
             {/* div that holds buttons and so on */}
             <div className="flex flex-col items-center">
-              <Button primary rounded className="w-64 h-12 mt-5 text-lg">
+              <Button primary rounded className="w-64 h-12 mt-5 text-lg hover:bg-accent">
                 Sign In
               </Button>
               <Button
                 primary
                 outline
                 rounded
-                className="w-64 h-12 mt-5 text-lg"
+                className="w-64 h-12 mt-5 text-lg hover:bg-accent hover:text-white"
               >
                 Forgot password
               </Button>

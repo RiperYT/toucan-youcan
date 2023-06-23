@@ -194,7 +194,7 @@ const SignUp = () => {
                 disabled={!privacySettingsAccepted}
                 primary
                 rounded
-                className="w-64 h-12 mt-5 text-lg"
+                className={`w-64 h-12 mt-5 text-lg ${privacySettingsAccepted ? "hover:bg-accent" : ""}  `}
               >
                 Sign Up
               </Button>

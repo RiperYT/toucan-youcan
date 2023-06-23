@@ -119,7 +119,7 @@ const ProfileForm = () => {
                 }}
                 primary
                 rounded
-                className="w-64 h-12 mt-10 text-lg"
+                className="w-64 h-12 mt-10 text-lg hover:bg-accent rounded-full"
               >
                 Save
               </Button>
