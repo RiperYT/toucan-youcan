@@ -36,7 +36,7 @@ const CategoriesList = () => {
           console.log(category.name);
           return (
             <div
-              className="w-64 p-3 mb-3 text-xl border-2 rounded-xl border-primary "
+              className="w-64 p-3 mb-3 text-xl border-2 rounded-xl border-primary hover:bg-accent hover:text-white"
               onClick={() => {
                 handleNavigateTo(category.id);
               }}
