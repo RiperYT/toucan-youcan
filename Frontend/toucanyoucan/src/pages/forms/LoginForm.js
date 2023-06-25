@@ -40,7 +40,7 @@ const LoginForm = () => {
     // make http request to the server
 
     dispatch(hashPassword());
-    // navigate("/");
+    navigate("/");
   };
 
   if (hashedPassword) {

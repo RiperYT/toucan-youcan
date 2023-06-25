@@ -47,6 +47,7 @@ const SignUp = () => {
     // dispatch(hashPassword());
     // make http request to the server
     dispatch(hashPassword());
+    navigate("/");
   };
 
   if (hashedPassword) {
@@ -195,6 +196,7 @@ const SignUp = () => {
                 primary
                 rounded
                 className={`w-64 h-12 mt-5 text-lg transition-all ${privacySettingsAccepted ? "hover:bg-accent" : ""}  `}
+                
               >
                 Sign Up
               </Button>
